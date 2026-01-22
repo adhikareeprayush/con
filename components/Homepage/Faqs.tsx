@@ -84,7 +84,9 @@ const Faqs = () => {
                   {expandedIndex === index ? "-" : "+"}
                 </button>
               </div>
-              {expandedIndex === index && <p className="text-sm sm:text-base">{faq.answer}</p>}
+              {expandedIndex === index && (
+                <p className="text-sm sm:text-base">{faq.answer}</p>
+              )}
             </div>
           ))}
         </div>

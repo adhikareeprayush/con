@@ -22,7 +22,9 @@ const Testimonials = () => {
             <h6 className="text-primary text-base sm:text-lg md:text-xl leading-7 sm:leading-9 font-bold">
               Prayush Adhikari
             </h6>
-            <p className="font-medium text-sm sm:text-base">CEO of Basecamp Corp</p>
+            <p className="font-medium text-sm sm:text-base">
+              CEO of Basecamp Corp
+            </p>
           </div>
         </div>
         <div className="flex items-center gap-4 sm:gap-6 md:gap-9">

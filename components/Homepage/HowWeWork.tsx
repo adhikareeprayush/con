@@ -62,7 +62,9 @@ const HowWeWork = () => {
               height={40}
               className="rounded-full object-cover w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 border-white"
             />
-            <span className="text-4xl sm:text-5xl md:text-7xl font-semibold text-white">+</span>
+            <span className="text-4xl sm:text-5xl md:text-7xl font-semibold text-white">
+              +
+            </span>
           </div>
         </div>
         <div className="flex lg:col-span-3 relative h-[250px] sm:h-[300px] md:h-[382px] items-center justify-center">
@@ -74,7 +76,13 @@ const HowWeWork = () => {
             height={382}
           />
           <div className="flex items-center justify-center border-6 sm:border-8 md:border-10 border-white rounded-full bg-[#EA6038] w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] absolute -bottom-6 sm:-bottom-8 md:-bottom-10 -right-2 sm:-right-6 md:-right-10">
-            <Image src="/play.svg" alt="Play Video" width={44} height={44} className="w-6 h-6 sm:w-8 sm:h-8 md:w-11 md:h-11" />
+            <Image
+              src="/play.svg"
+              alt="Play Video"
+              width={44}
+              height={44}
+              className="w-6 h-6 sm:w-8 sm:h-8 md:w-11 md:h-11"
+            />
           </div>
           <h3 className="z-100 font-semibold text-xl sm:text-3xl md:text-4xl lg:text-[48px] text-white tracking-[4px] sm:tracking-[6px] md:tracking-[10px] text-center px-4">
             HOW WE WORK
