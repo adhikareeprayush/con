@@ -4,15 +4,14 @@ const HowWeWork = () => {
   return (
     <section className="flex flex-col px-4 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-14 md:py-18 gap-10 sm:gap-14 md:gap-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 items-center">
-        <h1 className="col-span-1 text-primary text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-tighter leading-tight md:leading-12">
+        <h1 className="col-span-1 text-gray-500 text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-tighter leading-tight md:leading-12">
           Provide the best service with out of the box ideas
         </h1>
         <p className="col-span-1 text-sm sm:text-base">
-          We are a passionate team of digital marketing enthusiasts dedicated to
-          helping businesses succeed in the digital world. With years of
-          experience and a deep understanding of the ever-evolving online
-          landscape, we stay at the forefront of industry trends and
-          technologies.
+          We are a passionate team of tech enthusiasts dedicated to helping
+          businesses succeed in the digital world. With years of experience and
+          a deep understanding of the ever-evolving online landscape, we stay at
+          the forefront of industry trends and technologies.
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-5 items-center justify-between gap-6 sm:gap-8 md:gap-10">
@@ -26,7 +25,7 @@ const HowWeWork = () => {
           />
           <div className="flex flex-col z-10">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[84px] text-white font-bold leading-tight md:leading-20">
-              920
+              60
               <span className="text-[#99CF63]">+</span>
             </h1>
             <p className="text-[#878C91] text-sm sm:text-base md:text-[19px] font-medium leading-6 sm:leading-8">
@@ -35,32 +34,32 @@ const HowWeWork = () => {
           </div>
           <div className="flex items-center gap-1 sm:gap-2 z-10">
             <Image
-              src="/Profile.jpg"
+              src="/companies/nisargalogo.png"
               alt="Profile Image"
               width={40}
               height={40}
-              className="rounded-full object-cover w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 border-white"
+              className="rounded-full object-contain w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 bg-white border-white"
             />
             <Image
-              src="/Profile.jpg"
+              src="/companies/careandclean.png"
               alt="Profile Image"
               width={40}
               height={40}
-              className="rounded-full object-cover w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 border-white"
+              className="rounded-full object-contain w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 bg-white border-white"
             />
             <Image
-              src="/Profile.jpg"
+              src="/companies/shabdastralogo.png"
               alt="Profile Image"
               width={40}
               height={40}
-              className="rounded-full object-cover w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 border-white"
+              className="rounded-full object-contain w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 bg-white border-white"
             />
             <Image
-              src="/Profile.jpg"
+              src="/companies/fleetbox.png"
               alt="Profile Image"
               width={40}
               height={40}
-              className="rounded-full object-cover w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 border-white"
+              className="rounded-full object-contain w-10 h-10 sm:w-14 sm:h-14 md:size-18 border-2 bg-white border-white"
             />
             <span className="text-4xl sm:text-5xl md:text-7xl font-semibold text-white">
               +

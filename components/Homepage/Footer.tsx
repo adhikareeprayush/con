@@ -6,24 +6,25 @@ const navigationLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Projects", href: "/projects" },
-  { label: "Blog", href: "/blog" },
+  { label: "Products", href: "/products" },
+  { label: "Contact", href: "/contact" },
+  { label: "Careers", href: "/careers" },
 ];
 
 const licenseLinks = [
   { label: "Privacy Policy", href: "/privacy-policy" },
-  { label: "Terms of Service", href: "/terms-of-service" },
-  { label: "Cookie Policy", href: "/cookie-policy" },
+  { label: "Terms of Service", href: "/terms" },
+  { label: "Cookie Policy", href: "/cookies" },
   { label: "GDPR", href: "/gdpr" },
 ];
 
 const contactLinks = [
   {
-    label: "hello@convolutionlabs.com",
-    href: "mailto:hello@convolutionlabs.com",
+    label: "contact@convolutionlab.com",
+    href: "mailto:contact@convolutionlab.com",
   },
-  { label: "+1 (555) 123-4567", href: "tel:+15551234567" },
-  { label: "123 Innovation Street, Tech City, TC 12345", href: "#" },
+  { label: "+977 9700045699", href: "tel:+9779700045699" },
+  { label: "Dhangadi-5, kailali, Nepal", href: "#" },
 ];
 
 const socialLinks = [
@@ -59,7 +60,7 @@ const socialLinks = [
   },
   {
     label: "Instagram",
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/convolutionlabs/",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +75,7 @@ const socialLinks = [
   },
   {
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/convolutionlabs107",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -116,9 +117,9 @@ const Footer = () => {
                 </h3>
               </Link>
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 font-jakarta">
-                An award-winning digital agency focused on understanding you. We
-                help businesses grow through innovative marketing strategies and
-                cutting-edge design.
+                Convolution Labs is a forward-thinking technology company
+                specializing in web and mobile development, digital marketing,
+                STEM & robotics and UI/UX design.
               </p>
               {/* Social Links */}
               <div className="flex items-center gap-4">

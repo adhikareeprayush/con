@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Resuable/Nav";
+import PageTransition from "@/components/Resuable/PageTransition";
 
 export const metadata: Metadata = {
   title: "Convolution Labs",
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body className="antialiased">
         <div className="background-noise"></div>
         <Nav />
-        {children}
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );

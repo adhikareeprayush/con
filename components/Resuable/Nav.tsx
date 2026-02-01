@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "./Button";
 import bell from "@/public/bell.svg";
 import Link from "next/link";
+import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
   return (
@@ -20,34 +21,61 @@ const Nav = () => {
             Convolution Labs
           </h3>
         </Link>
-        {/* <ul className="flex items-center gap-14 text-black font-jakarta font-semibold text-sm">
+        <ul className="hidden lg:flex items-center gap-8 text-black font-jakarta font-semibold text-sm">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" className="hover:text-primary transition-colors">
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link
+              href="/about"
+              className="hover:text-primary transition-colors"
+            >
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/services">Services</Link>
+            <Link
+              href="/services"
+              className="hover:text-primary transition-colors"
+            >
+              Services
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link
+              href="/products"
+              className="hover:text-primary transition-colors"
+            >
+              Projects
+            </Link>
           </li>
-        </ul> */}
+          <li>
+            <Link
+              href="/contact"
+              className="hover:text-primary transition-colors"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </div>
 
       <div className="flex items-center gap-2">
-        <Button
+        <Link href="/contact">
+          <Button
+            type="button"
+            label="Get Started"
+            variant="secondary"
+            icon={null}
+            iconPosition="left"
+            className="hidden sm:flex py-1.5 sm:py-2 px-3 hover:bg-primary hover:text-white transform duration-500 ease-in-out transition-transform sm:px-4 md:px-6 font-manrope text-xs sm:text-sm md:text-base"
+          />
+        </Link>
+        {/* <Button
           type="button"
-          label="Get Started"
-          variant="secondary"
-          icon={null}
-          iconPosition="left"
-          className="py-1.5 sm:py-2 px-3 sm:px-4 md:px-6 font-manrope text-xs sm:text-sm md:text-base"
-        />
-        <Button
-          type="button"
-          className="h-8 w-8 sm:h-10 sm:w-10 rounded-full px-0 py-0 flex items-center justify-center"
+          className="hidden sm:flex h-8 w-8 sm:h-10 sm:w-10 rounded-full px-0 py-0 items-center justify-center"
           icon={
             <Image
               src={bell}
@@ -59,7 +87,8 @@ const Nav = () => {
           }
           variant="primary"
           iconPosition="left"
-        />
+        /> */}
+        <MobileMenu />
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ const Faqs = () => {
     <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-14 md:py-20">
       <div className="bg-white grid lg:grid-cols-2 grid-cols-1 p-4 sm:p-6 md:p-8 gap-8 sm:gap-12 md:gap-16 lg:gap-20 rounded-[20px] sm:rounded-[25px] md:rounded-[30px]">
         <div className="flex flex-col gap-6 sm:gap-8 lg:gap-12 col-span-1">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl text-primary font-jakarta font-semibold leading-[130%] tracking-tighter">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-600 font-jakarta font-semibold leading-[130%] tracking-tighter">
             Digital Marketing FAQs
           </h2>
           <p className="text-sm sm:text-base font-jakarta leading-[180^%] font-medium">
